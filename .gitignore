@@ -1,8 +1,13 @@
-#Terraform *.tfvars
-
+#Local Terraform 
+**/.terraform/*
 .terraform
-terraform.tfvars
-terraform.tfstate
+
+#Terraform Tfvars file
+*.tfvars
+
+#Terraform Tfstate Files
+*.tfstate
+*.tfstate.*
 
 #Crash Logs
 crash.log
