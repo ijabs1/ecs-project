@@ -1,5 +1,6 @@
 #Local Terraform 
 **/.terraform/*
+.terraform.*
 .terraform
 
 #Terraform Tfvars file
@@ -11,3 +12,7 @@
 
 #Crash Logs
 crash.log
+
+#env file
+*.env
+.env

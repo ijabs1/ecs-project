@@ -81,7 +81,19 @@ variable "multi_az_deployment" {
   type        = bool
 }
 
+#acm variables
 variable "domain_name" {
+  description = "Domain Name"
+  type        = string
+}
+
+#s3 variables
+variable "env_file_bucket_name" {
+  description = "Domain Name"
+  type        = string
+}
+
+variable "env_file_name" {
   description = "Domain Name"
   type        = string
 }
